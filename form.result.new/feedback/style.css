@@ -1,0 +1,19 @@
+
+.form__input.error {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.form__input.error::placeholder {
+    color: red;
+}
+
+.form__checkbox-text.error {
+    color: red;
+}
+
+.btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
+
