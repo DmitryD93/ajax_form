@@ -211,7 +211,7 @@ $arResult["FORM_HEADER"]
 ```
 нам необходимо задать обертку для нашей формы, через которую будем обращаться к форме по селектору и сможем присвоить свой класс:
 ```html 
-<div class="js-feedback__form"><-ПОДКЛЮЧЕНИЕ_КОМПОНЕНТА_ФОРМЫ-></div>
+<div class="js-feedback-form"><-ПОДКЛЮЧЕНИЕ_КОМПОНЕНТА_ФОРМЫ-></div>
 ```
 ```javascript
 const form = document.querySelector(".js-feedback-form form")
